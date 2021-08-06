@@ -3,6 +3,8 @@ import Sawo from "sawo";
 
 import "./LoginPage.css";
 
+const API_KEY = process.env.REACT_APP_API_KEY;
+
 const LoginPage = () => {
   const [isUserLoggedIn, setUserLoggedIn] = useState(false);
   const [payload, setPayload] = useState({});
@@ -11,7 +13,7 @@ const LoginPage = () => {
     var config = {
       containerID: "sawo-container",
       identifierType: "email",
-      apiKey: "Your API Key",
+      apiKey: API_KEY,
       onSuccess: (payload) => {
         console.log("Payload : " + JSON.stringify(payload));
         setUserLoggedIn(true);
