@@ -85,6 +85,4 @@ export default LoginPage
 ```
 8. Once the SAWO SDK is successfully set up, a login form will be rendered in the provided container 
 
-# Congratulations !! The SAWO API is now ready to be used in your React application 
-# You can also check out SAWO's [React Sample Code](https://github.com/sawolabs/React-Sample-App) and [Deployed App](https://sawo-react-sample-app.netlify.app/)
-# It's okay, we get it! You got Stuck!😞 Feel free to contact us on #ask-for-help on our [Discord](https://discord.com/invite/TpnCfMUE5P)
+
