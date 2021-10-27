@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.jpg";
+import { useHistory } from "react-router-dom";
 
 const Header = () => {
+  const history = useHistory();
   return (
     <header>
       <div className="container">
@@ -20,6 +22,9 @@ const Header = () => {
             aria-controls="navbarNavAltMarkup"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            onClick={() => {
+              history.push("/login");
+            }}
           >
             <span className="navbar-toggler-icon"></span>
           </button>
