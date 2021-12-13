@@ -1,0 +1,13 @@
+{
+  "name": "Sawolabs React Sample App",
+  "repository": "https://github.com/sawolabs/React-Sample-App",
+  "keywords": [
+    "sawolabs",
+    "react",
+    "passwordless"
+  ],
+  "env": {
+    "REACT_APP_API_KEY": {
+      "description": "API KEY FOR SAWO"
+  }
+}
