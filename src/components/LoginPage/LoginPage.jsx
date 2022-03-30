@@ -12,7 +12,7 @@ const LoginPage = () => {
   useEffect(() => {
     var config = {
       containerID: "sawo-container",
-      identifierType: "email",
+      identifierType: "both_email_phone",
       apiKey: API_KEY,
       onSuccess: (payload) => {
         console.log("Payload : " + JSON.stringify(payload));
